@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+<link rel="stylesheet" href="css/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+<div class="header__wrapper container">
+
+    <nav class="nav">
+      <img class="nav__brand" src="./images/logo.svg" alt="Loopstudio logo">
+      <div class="nav__mobile-menu main__desktop" id="nav__mobile">
+        <div class="nav__mobile-menu--imgs">
+          <img class="main__mobile" src="./images/logo.svg" alt="Loopstudio logo">
+          <img class="main__mobile" src="./images/icon-close.svg" alt="Loopstudio logo" onclick="mobileNavClose()">
+        </div>
+      <ul class="nav__ul" > 
+        
+        <li><a class="links" href="#">About</a></li>
+        <li><a class="links"href="#">Careers</a></li>
+        <li><a class="links"href="#">Events</a></li>
+        <li><a class="links"href="#">Products</a></li>
+        <li><a class="links"href="#">Support</a></li>
+      </ul>
+    </div>
+      <img class="main__mobile hamburger" src="./images/icon-hamburger.svg" alt="hamburger" onclick="mobileNavMenu()">
+    </nav>
+    <div class="header__title">
+
+      <h1>Immersive experiences <span class="vertical-text">that</span> <span class="vertical-text"> deliver</span></h1>
+
+    </div>
+    </div>
+  </header>
+  <main class="main container">
+    <div class="main__intro--wrapper">
+
+
+<img class="main__intro--img"src="./images/desktop/image-interactive.jpg" alt="Interactive img">
+<div class="main__intro--text">
+
+    <h2>The leader in interactive VR </h2>
+
+    <p>Founded in 2011, Loopstudios has been producing world-class virtual reality
+      projects for some of the best companies around the globe. Our award-winning
+      creations have transformed businesses through digital experiences that bind
+      to their brand.</p>
+</div>
+</div>
+<div class="main__our-creations--wrapper">
+
+<div class="main__creations--heading">
+
+    <h2>Our creations</h2>
+
+    <a class="main__creations--button main__desktop" href="#">See all</a>
+
+    </div>
+
+    <div class="main__creations--gallery">
+
+
+      <div class="creations__gallery-img">
+        <img class="main__desktop" src="./images/desktop/image-deep-earth.jpg" alt="deepearth">
+        <img class="main__mobile" src="./images/mobile/image-deep-earth.jpg" alt="deepearth">
+        <h3>Deep earth</h3>
+      </div>
+
+      <div class="creations__gallery-img">
+        <img class="main__desktop" src="./images/desktop/image-night-arcade.jpg" alt="night arcade">
+        <img class="main__mobile" src="./images/mobile/image-night-arcade.jpg" alt="night arcade">
+
+        <h3>Night arcade</h3>
+      </div>
+
+      <div class="creations__gallery-img">
+        <img class="main__desktop" src="./images/desktop/image-soccer-team.jpg" alt="soccer team">
+        <img class="main__mobile"src="./images/mobile/image-soccer-team.jpg" alt="soccer team">
+        <h3> Soccer team VR</h3>
+      </div>
+
+      <div class="creations__gallery-img">
+        <img class="main__desktop" src="./images/desktop/image-grid.jpg" alt="grid">
+        <img class="main__mobile"src="./images/mobile/image-grid.jpg" alt="grid">
+        <h3>The <span class="mobile__gallery--text">  grid </span></h3>
+      </div>
+
+      <div class="creations__gallery-img">
+        <img class="main__desktop" src="./images/desktop/image-from-above.jpg" alt="from above vr">
+        <img class="main__mobile" src="./images/mobile/image-from-above.jpg" alt="from above vr">
+        <h3>From up above VR</h3>
+      </div>
+
+
+      <div class="creations__gallery-img">
+        <img class="main__desktop" src="./images/desktop/image-pocket-borealis.jpg" alt="pocket borealis">
+        <img class="main__mobile" src="./images/mobile/image-pocket-borealis.jpg" alt="pocket borealis">
+        <h3> Pocket borealis</h3>
+      </div>
+
+
+      <div class="creations__gallery-img">
+        <img class="main__desktop" src="./images/desktop/image-curiosity.jpg" alt="curiosity">
+        <img class="main__mobile"  src="./images/mobile/image-curiosity.jpg" alt="curiosity">
+        <h3>The curiosity</h3>
+      </div>
+
+      <div class="creations__gallery-img">
+        <img class="main__desktop" src="./images/desktop/image-fisheye.jpg" alt="fisheye">
+        <img class="main__mobile" src="./images/mobile/image-fisheye.jpg" alt="fisheye">
+        <h3>Make it fisheye</h3>
+      </div>
+</div>
+<a class="main__creations--button main__mobile mobile__button" href="#">See all</a>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper container">
+
+    <img class="footer__logo"src="./images/logo.svg" alt="Loopstudios logo">
+
+
+    <div class="footer__icons">
+      <a href="#"><img src="./images/icon-facebook.svg" alt="facebook icon"></a>
+      <a href="#"><img src="./images/icon-twitter.svg" alt="twitter icon"></a>
+      <a href="#"><img src="./images/icon-pinterest.svg" alt="pintrest icon"></a>
+      <a href="#"><img src="./images/icon-instagram.svg" alt="intagram icon"></a>
+    </div>
+
+    <ul class="footer__links">
+      <li><a class="links" href="#">About</a></li>
+      <li><a class="links"href="#">Careers</a></li>
+      <li><a class="links"href="#">Events</a></li>
+      <li><a class="links"href="#">Products</a></li>
+      <li><a class="links"href="#">Support</a></li>
+
+</ul>
+    <p class="footer__copyright">© 2021 Loopstudios. All rights reserved.</p>
+    </div>
+
+  </footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Lauren Stroud</a>.
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
