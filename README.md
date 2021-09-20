@@ -16,7 +16,6 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,13 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.jpeg)
 
 
 
 ### Links
 
-- Solution URL: [https://github.com/CommanderMeow/LoopStudio-landing-page] https://github.com/CommanderMeow/LoopStudio-landing-page)
+- Solution URL: [https://github.com/CommanderMeow/LoopStudio-landing-page] (https://github.com/CommanderMeow/LoopStudio-landing-page)
 - Live Site URL: [https://commandermeow.github.io/LoopStudio-landing-page/ ](https://commandermeow.github.io/LoopStudio-landing-page/)
 
 ## My process
