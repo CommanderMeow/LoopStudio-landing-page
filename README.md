@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]https://github.com/CommanderMeow/LoopStudio-landing-page)
-- Live Site URL: [Add live site URL here](https://commandermeow.github.io/LoopStudio-landing-page/)
+- Solution URL: [https://github.com/CommanderMeow/LoopStudio-landing-page] https://github.com/CommanderMeow/LoopStudio-landing-page)
+- Live Site URL: [https://commandermeow.github.io/LoopStudio-landing-page/ ](https://commandermeow.github.io/LoopStudio-landing-page/)
 
 ## My process
 
